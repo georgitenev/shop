@@ -1,0 +1,142 @@
+/* 
+    Document   : style
+    Created on : Jun 8, 2012, 4:34:00 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html{
+    background-color: #ccc;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#fff));
+
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #ccc, #fff);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #ccc, #fff);
+
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #ccc, #fff);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #2F2727, #1a82f7);
+    background: url('img/bg.png') repeat;
+}
+@font-face /*dobaveni fontove ne gi polzva6*/
+{
+font-family: myFirstFont;
+src: url('fonts/sserifer.fon')
+    ,url('fonts/sserifer.fon'); /* IE9+ */
+}
+#sitewrap{
+    margin:0 auto;
+    width: 960px;
+    height:500px;
+
+
+}
+header{
+    margin:0 auto;
+    margin-top: 20px;
+    width: 940px;
+    height:96px;
+
+}
+#logo{
+    width: 316px;
+    height: 96px;
+    background: url('img/logo.png') no-repeat;
+    float:left;
+}
+
+#kasa{
+    width: 316px;
+    height: 96px;
+    float:right;
+    color:#d2d0cc;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+#kasa p:last-child{
+    margin-top: -10px;
+    text-align: center;
+    color:#b09ea1;
+    font-size: 26px;
+    
+}
+
+#kasa .dollar{
+    width: 100px;
+    height: 96px;
+    background: url('img/dollar.png') no-repeat;
+    float:right;
+}
+nav{
+    margin:5px auto;
+    margin-left: 10px;
+    width: 940px;
+    
+    list-style : none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+    float:left;
+}
+aside{
+    margin: 10px  0 0 10px;
+    width:240px;
+    height:300px;
+    float:left;
+}
+aside a{
+    color:#383838;
+}
+aside a:hover{
+    text-decoration: none;
+}
+
+aside ul{
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 10px 105px 10px 30px;
+    display: block;
+    
+    
+     color:#383838;
+}
+aside li{
+    padding: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    background: url(img/marcer.jpg) left no-repeat;
+
+}
+aside h1{
+    text-align:center;
+    color:#383838;
+}
+section {
+    margin:10px;
+    width:686px;
+	border: 1px solid #d2d0cc;
+    background-color: #fff;
+    float:left;
+}
+section h2 {
+text-align: center;
+color: #336699;
+}
+#t1{
+margin: 10px auto;
+border:2px solid #f5deb3;
+}
+#del{
+margin:0 auto;
+margin-left:160px;
+height:250px;
+width: 540px;
+}
+
+
